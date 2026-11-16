@@ -1,13 +1,13 @@
 # One entry per signature bar, top to bottom. Run `bun scripts/build-bars.ts`
 # after editing to rewrite assets/bars/ and the bar stack in README.md.
-# motif: zap | fan | radial | stash (drawn in scripts/build-bars.ts)
+# Each bar needs assets/icons/<name>.png: the app's icon at 128 px, with the
+# macOS icon margin (sips -s format png -Z 128 <App>.app/Contents/Resources/AppIcon.icns).
 # tags: language, then platform. status (optional): NEW, COMING SOON, DAILY DRIVER
 # url (optional): leave it out for an unreleased project.
 
 - name: zag
   tagline: a whole Mac text editor in 436 KB of Zig
   url: https://github.com/hkay-dev/zag
-  motif: zap
   accent: { dark: "#f7a41d", light: "#9a6700" }
   tags: [ZIG, macOS]
   status: NEW
@@ -15,13 +15,11 @@
 - name: fanbar
   tagline: fan control with live CPU power, clocks and temps
   url: https://github.com/hkay-dev/fanbar
-  motif: fan
-  accent: { dark: "#39c5cf", light: "#0e7c86" }
+  accent: { dark: "#7ee787", light: "#1a7f37" }
   tags: [SWIFT, MENU BAR]
 
 - name: azimuth
   tagline: hold a chord, flick, release. A radial launcher.
-  motif: radial
   accent: { dark: "#d2a8ff", light: "#8250df" }
   tags: [SWIFT, macOS 26]
   status: COMING SOON
@@ -29,7 +27,6 @@
 - name: ohmystash
   tagline: stash unfinished prompts, bring them back later
   url: https://github.com/hkay-dev/OhMyStash
-  motif: stash
-  accent: { dark: "#f778ba", light: "#bf3989" }
+  accent: { dark: "#ff7b72", light: "#cf222e" }
   tags: [TYPESCRIPT, OMP PLUGIN]
   status: DAILY DRIVER
