@@ -5,40 +5,22 @@
 
 I'm Harsha. I spent more than a decade across hardware operations, data centers and AI, and now I build small, fast tools for the Mac, Android and AI coding agents. I care how systems work, and I care even more about making them useful for real people.
 
-I'm open-sourcing a lot of what I've built. Here's what's out so far.
+I'm open-sourcing a lot of what I've built. Here's what's out so far, plus one that's on the way.
 
-### 🖥️ Mac apps
+<!-- bars:start -->
+<a href="https://github.com/hkay-dev/zag"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bars/zag-dark.svg"><img alt="zag: a whole Mac text editor in 436 KB of Zig" src="assets/bars/zag-light.svg" width="100%"></picture></a>
+<a href="https://github.com/hkay-dev/fanbar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bars/fanbar-dark.svg"><img alt="fanbar: fan control with live CPU power, clocks and temps" src="assets/bars/fanbar-light.svg" width="100%"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/bars/azimuth-dark.svg"><img alt="azimuth: hold a chord, flick, release. A radial launcher." src="assets/bars/azimuth-light.svg" width="100%"></picture>
+<a href="https://github.com/hkay-dev/OhMyStash"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bars/ohmystash-dark.svg"><img alt="ohmystash: stash unfinished prompts, bring them back later" src="assets/bars/ohmystash-light.svg" width="100%"></picture></a>
+<!-- bars:end -->
+
+### 🧪 More tools
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hkay-dev/finch"><b>Finch</b></a> <sub>Rust · GPUI</sub><br>
-      A small, fast text editor for the Mac, with a Markdown preview.
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hkay-dev/zag"><b>Zag</b></a> <sub>Zig</sub><br>
-      A small native macOS text editor written from scratch in Zig. <a href="https://zag.hkay.me">zag.hkay.me</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hkay-dev/fanbar"><b>Fanbar</b></a> <sub>menu bar</sub><br>
-      Tiny fan control for Apple Silicon Macs, with live CPU power, clocks and temps.
-    </td>
     <td width="50%" valign="top">
       <a href="https://github.com/hkay-dev/closeup"><b>Closeup</b></a> <sub>Swift</sub><br>
       Your Android phone, as your Mac's webcam. A menu bar app over USB or Wi-Fi.
-    </td>
-  </tr>
-</table>
-
-### 🤖 Agent tools
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hkay-dev/OhMyStash"><b>OhMyStash</b></a> <sub>Oh My Pi plugin</sub><br>
-      Stash unfinished prompts, images and pastes, then browse, search and restore them across chats.
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/hkay-dev/omp-utility-skills"><b>omp-utility-skills</b></a> <sub>Oh My Pi skills</sub><br>

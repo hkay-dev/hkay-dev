@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="56" viewBox="0 0 840 56" role="img" aria-label="fanbar: fan control with live CPU power, clocks and temps">
+  <defs>
+    <clipPath id="shape"><rect width="840" height="56" rx="10"/></clipPath>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#39c5cf" stop-opacity="0.16"/>
+      <stop offset="0.6" stop-color="#39c5cf" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>text { font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; }</style>
+  <g clip-path="url(#shape)">
+    <rect width="840" height="56" fill="#0d1117"/>
+    <rect width="840" height="56" fill="url(#wash)"/>
+    <rect width="56" height="56" fill="#39c5cf" fill-opacity="0.14"/>
+    <line x1="56" y1="0" x2="56" y2="56" stroke="#39c5cf" stroke-opacity="0.35"/>
+    
+    <circle cx="28" cy="28" r="17" fill="none" stroke="#39c5cf" stroke-opacity="0.35" stroke-width="1.5"/>
+    <g fill="#39c5cf">
+      <path d="M28 28 C25 21 28 13 33 14 C38 15 35 23 28 28 Z" transform="rotate(0 28 28)"/><path d="M28 28 C25 21 28 13 33 14 C38 15 35 23 28 28 Z" transform="rotate(120 28 28)"/><path d="M28 28 C25 21 28 13 33 14 C38 15 35 23 28 28 Z" transform="rotate(240 28 28)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 28 28" to="360 28 28" dur="2.4s" repeatCount="indefinite"/>
+    </g>
+    <circle cx="28" cy="28" r="3" fill="#0d1117" stroke="#39c5cf" stroke-width="1.5"/>
+  </g>
+  <rect x="0.5" y="0.5" width="839" height="55" rx="10" fill="none" stroke="#39c5cf" stroke-opacity="0.45"/>
+  <text x="74" y="34" font-size="16" textLength="57.6" lengthAdjust="spacingAndGlyphs" fill="#e6edf3" font-weight="700">fanbar</text>
+  <text x="145.6" y="33" font-size="13" textLength="382.2" lengthAdjust="spacingAndGlyphs" fill="#7d8590">fan control with live CPU power, clocks and temps</text>
+  <rect x="759.6" y="18" width="66.4" height="20" rx="10" fill="none" stroke="#39c5cf" stroke-opacity="0.5"/><text x="767.6" y="32" font-size="10.5" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#39c5cf" font-weight="700">MENU BAR</text><rect x="706.1" y="18" width="47.5" height="20" rx="10" fill="none" stroke="#39c5cf" stroke-opacity="0.5"/><text x="714.1" y="32" font-size="10.5" textLength="31.5" lengthAdjust="spacingAndGlyphs" fill="#39c5cf" font-weight="700">SWIFT</text>
+</svg>

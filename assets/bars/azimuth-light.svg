@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="56" viewBox="0 0 840 56" role="img" aria-label="azimuth: hold a chord, flick, release. A radial launcher.">
+  <defs>
+    <clipPath id="shape"><rect width="840" height="56" rx="10"/></clipPath>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#8250df" stop-opacity="0.16"/>
+      <stop offset="0.6" stop-color="#8250df" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>text { font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; }</style>
+  <g clip-path="url(#shape)">
+    <rect width="840" height="56" fill="#f6f8fa"/>
+    <rect width="840" height="56" fill="url(#wash)"/>
+    <rect width="56" height="56" fill="#8250df" fill-opacity="0.14"/>
+    <line x1="56" y1="0" x2="56" y2="56" stroke="#8250df" stroke-opacity="0.35"/>
+    
+    <circle cx="28" cy="28" r="15" fill="none" stroke="#8250df" stroke-opacity="0.4" stroke-width="1.5"/>
+    <circle cx="28" cy="13" r="2.2" fill="#8250df" fill-opacity="0.45" transform="rotate(0 28 28)"/><circle cx="28" cy="13" r="2.2" fill="#8250df" fill-opacity="0.45" transform="rotate(60 28 28)"/><circle cx="28" cy="13" r="2.2" fill="#8250df" fill-opacity="0.45" transform="rotate(120 28 28)"/><circle cx="28" cy="13" r="2.2" fill="#8250df" fill-opacity="0.45" transform="rotate(180 28 28)"/><circle cx="28" cy="13" r="2.2" fill="#8250df" fill-opacity="0.45" transform="rotate(240 28 28)"/><circle cx="28" cy="13" r="2.2" fill="#8250df" fill-opacity="0.45" transform="rotate(300 28 28)"/>
+    <g>
+      <line x1="28" y1="28" x2="28" y2="16" stroke="#8250df" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="28" cy="13" r="3.4" fill="#8250df"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 28 28;60 28 28;60 28 28;180 28 28;180 28 28;300 28 28;300 28 28;360 28 28" keyTimes="0;0.08;0.3;0.38;0.6;0.68;0.9;1" dur="4.5s" repeatCount="indefinite"/>
+    </g>
+    <circle cx="28" cy="28" r="2.5" fill="#8250df"/>
+  </g>
+  <rect x="0.5" y="0.5" width="839" height="55" rx="10" fill="none" stroke="#8250df" stroke-opacity="0.45"/>
+  <text x="74" y="34" font-size="16" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill="#1f2328" font-weight="700">azimuth</text>
+  <text x="155.2" y="33" font-size="13" textLength="374.4" lengthAdjust="spacingAndGlyphs" fill="#656d76">hold a chord, flick, release. A radial launcher.</text>
+  <rect x="740.7" y="18" width="85.3" height="20" rx="10" fill="#8250df" stroke="#8250df" stroke-opacity="1"/><text x="748.7" y="32" font-size="10.5" textLength="69.3" lengthAdjust="spacingAndGlyphs" fill="#f6f8fa" font-weight="700">COMING SOON</text><rect x="668.3000000000001" y="18" width="66.4" height="20" rx="10" fill="none" stroke="#8250df" stroke-opacity="0.5"/><text x="676.3000000000001" y="32" font-size="10.5" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#8250df" font-weight="700">macOS 26</text><rect x="614.8000000000001" y="18" width="47.5" height="20" rx="10" fill="none" stroke="#8250df" stroke-opacity="0.5"/><text x="622.8000000000001" y="32" font-size="10.5" textLength="31.5" lengthAdjust="spacingAndGlyphs" fill="#8250df" font-weight="700">SWIFT</text>
+</svg>

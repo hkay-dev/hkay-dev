@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="56" viewBox="0 0 840 56" role="img" aria-label="ohmystash: stash unfinished prompts, bring them back later">
+  <defs>
+    <clipPath id="shape"><rect width="840" height="56" rx="10"/></clipPath>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#f778ba" stop-opacity="0.16"/>
+      <stop offset="0.6" stop-color="#f778ba" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>text { font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; }</style>
+  <g clip-path="url(#shape)">
+    <rect width="840" height="56" fill="#0d1117"/>
+    <rect width="840" height="56" fill="url(#wash)"/>
+    <rect width="56" height="56" fill="#f778ba" fill-opacity="0.14"/>
+    <line x1="56" y1="0" x2="56" y2="56" stroke="#f778ba" stroke-opacity="0.35"/>
+    
+    <path d="M14 30 V41 H42 V30" fill="none" stroke="#f778ba" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="18" y="35" width="20" height="3.5" rx="1.5" fill="#f778ba"/>
+    <rect x="18" y="30" width="20" height="3.5" rx="1.5" fill="#f778ba" fill-opacity="0.55"/>
+    <rect x="18" y="12" width="20" height="3.5" rx="1.5" fill="#f778ba" opacity="0">
+      <animate attributeName="y" values="12;12;25;25" keyTimes="0;0.25;0.55;1" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.25;0.8;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="0.5" y="0.5" width="839" height="55" rx="10" fill="none" stroke="#f778ba" stroke-opacity="0.45"/>
+  <text x="74" y="34" font-size="16" textLength="86.4" lengthAdjust="spacingAndGlyphs" fill="#e6edf3" font-weight="700">ohmystash</text>
+  <text x="174.39999999999998" y="33" font-size="13" textLength="366.6" lengthAdjust="spacingAndGlyphs" fill="#7d8590">stash unfinished prompts, bring them back later</text>
+  <rect x="734.4" y="18" width="91.6" height="20" rx="10" fill="#f778ba" stroke="#f778ba" stroke-opacity="1"/><text x="742.4" y="32" font-size="10.5" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill="#0d1117" font-weight="700">DAILY DRIVER</text><rect x="649.4" y="18" width="79" height="20" rx="10" fill="none" stroke="#f778ba" stroke-opacity="0.5"/><text x="657.4" y="32" font-size="10.5" textLength="63.0" lengthAdjust="spacingAndGlyphs" fill="#f778ba" font-weight="700">OMP PLUGIN</text><rect x="564.4" y="18" width="79" height="20" rx="10" fill="none" stroke="#f778ba" stroke-opacity="0.5"/><text x="572.4" y="32" font-size="10.5" textLength="63.0" lengthAdjust="spacingAndGlyphs" fill="#f778ba" font-weight="700">TYPESCRIPT</text>
+</svg>

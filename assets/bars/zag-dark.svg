@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="56" viewBox="0 0 840 56" role="img" aria-label="zag: a whole Mac text editor in 436 KB of Zig">
+  <defs>
+    <clipPath id="shape"><rect width="840" height="56" rx="10"/></clipPath>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#f7a41d" stop-opacity="0.16"/>
+      <stop offset="0.6" stop-color="#f7a41d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>text { font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; }</style>
+  <g clip-path="url(#shape)">
+    <rect width="840" height="56" fill="#0d1117"/>
+    <rect width="840" height="56" fill="url(#wash)"/>
+    <rect width="56" height="56" fill="#f7a41d" fill-opacity="0.14"/>
+    <line x1="56" y1="0" x2="56" y2="56" stroke="#f7a41d" stroke-opacity="0.35"/>
+    
+    <path d="M31 13 L19 30 H27 L24 43 L37 25 H29 Z" fill="#f7a41d">
+      <animate attributeName="opacity" values="1;1;0.2;1;0.35;1;1" keyTimes="0;0.8;0.83;0.86;0.89;0.92;1" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <rect x="0.5" y="0.5" width="839" height="55" rx="10" fill="none" stroke="#f7a41d" stroke-opacity="0.45"/>
+  <text x="74" y="34" font-size="16" textLength="28.8" lengthAdjust="spacingAndGlyphs" fill="#e6edf3" font-weight="700">zag</text>
+  <text x="116.8" y="33" font-size="13" textLength="312.0" lengthAdjust="spacingAndGlyphs" fill="#7d8590">a whole Mac text editor in 436 KB of Zig</text>
+  <rect x="791.1" y="18" width="34.9" height="20" rx="10" fill="#f7a41d" stroke="#f7a41d" stroke-opacity="1"/><text x="799.1" y="32" font-size="10.5" textLength="18.9" lengthAdjust="spacingAndGlyphs" fill="#0d1117" font-weight="700">NEW</text><rect x="737.6" y="18" width="47.5" height="20" rx="10" fill="none" stroke="#f7a41d" stroke-opacity="0.5"/><text x="745.6" y="32" font-size="10.5" textLength="31.5" lengthAdjust="spacingAndGlyphs" fill="#f7a41d" font-weight="700">macOS</text><rect x="696.7" y="18" width="34.9" height="20" rx="10" fill="none" stroke="#f7a41d" stroke-opacity="0.5"/><text x="704.7" y="32" font-size="10.5" textLength="18.9" lengthAdjust="spacingAndGlyphs" fill="#f7a41d" font-weight="700">ZIG</text>
+</svg>
